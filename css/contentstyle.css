@@ -272,6 +272,7 @@ textarea{
 
 #nav a:link{
     text-decoration: none;
+    color: black;
 }
 
 #nav a:hover{
