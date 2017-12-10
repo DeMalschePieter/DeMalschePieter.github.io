@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>
+      Forecast - La Plagne Countdown
+  </title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/contentstyle.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class='landscape'>
+  <div class='moon'></div>
+  <div class='hills'>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class='tree'>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+    </div>
+  </div>
+  <div class="content">
+      <span id='major-title'>France, </span>
+      <span id='major-title-red'>La Plagne</span>
+      <div class='forecast-content'>
+          <span class="forecast-item">
+              <p id="daytoday" class="date">TODAY</p>
+              <img id="imgtoday" class="weathericon">
+              <p id="cmtoday" class="cmtext"></p>
+              <p id="temptoday" class="cmtext"></p>
+              <p id="freeztoday" class="cmtext"></p>
+          </span>
+          <span class="forecast-item">
+                <p id="dayadd1" class="date">FRI 8/12</p>
+                <img id="imgadd1" class="weathericon">
+                <p id="cmadd1" class="cmtext">8 cM</p>
+                <p id="tempadd1" class="cmtext"></p>
+                <p id="freezadd1" class="cmtext"></p>
+            </span>
+            <span class="forecast-item">
+                    <p id="dayadd2" class="date">SAT 9/12</p>
+                    <img id="imgadd2" class="weathericon">
+                    <p id="cmadd2" class="cmtext">8 cM</p>
+                    <p id="tempadd2" class="cmtext"></p>
+                    <p id="freezadd2" class="cmtext"></p>
+                </span>
+                <span class="forecast-item">
+                        <p id="dayadd3" class="date">SUN 10/12</p>
+                        <img id="imgadd3" class="weathericon">
+                        <p id="cmadd3" class="cmtext">8 cM</p>
+                        <p id="tempadd3" class="cmtext"></p>
+                        <p id="freezadd3" class="cmtext"></p>
+                    </span>
+      </div>
+    </div>
+  <div class="countdown">
+    <span id="daysto" class="countdownbig">96</span>
+    <span class="countdownlittle">DAYS</span>
+    <p id="countdownsec">
+      <span id="hrsto" class="countdownbig">2</span>
+      <span class="countdownlittle">H</span>
+      <span id="minto" class="countdownbig">54</span>
+      <span class="countdownlittle">M</span>
+    </p>
+    <p id="kleintotvertrek">TOT VERTREK</p>
+    
+  </div>
+</div>
+<div id="nav">
+        <a href="index.html"  >SNOW</a>
+        <a href="forecast.html" style="border-bottom: 2px solid #30475f;">FORECAST</a>
+        <a href="form.html" >FORUM</a>
+      </div>
+<canvas id='snow'></canvas>
+  
+    <script  src="js/index.js"></script>
+    <script  src="js/api.js"></script>
+
+</body>
+</html>

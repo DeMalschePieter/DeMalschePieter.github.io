@@ -1,0 +1,301 @@
+/* *{
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+} */
+body{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: snoww;
+    src: url(fonts/SNOW.ttf);
+}
+
+@font-face {
+    font-family: lemonmilk;
+    src: url(fonts/LemonMilk.otf);
+}
+
+#major-title{
+    color: snow;
+    font-family: snoww;
+    font-size: 55px;
+
+}
+
+#major-title-red{
+    color: red;
+    font-family: snoww;
+    font-size: 55px;
+
+}
+
+.content {
+    position: absolute ;
+    top: 8% ;
+    left: 10%;
+}
+
+#snow{
+    pointer-events: none ;
+}
+
+.countdown{
+    position: absolute;
+    left: 63%;
+    bottom: 225px;
+    font-family: lemonmilk;
+    /* border: 1px solid red; */
+    width: 250px;
+    text-align: center;
+}
+
+
+.countdownbig{
+    font-size: 70px;
+}
+
+.countdownlittle{
+    font-size: 32px;
+}
+
+#countdownsec{
+    margin-top: -20px;
+}
+
+#kleintotvertrek{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 27px;
+    margin-top: -20px;
+}
+
+.mid-content{
+    margin-top: 60px ;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+
+.mountain-height{
+    /* border: 1px solid red; */
+}
+
+#freshsnow{
+    font-family: lemonmilk;
+    font-size: 15px;
+    color: red;
+    vertical-align: top;
+}
+
+.village-height{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+
+#img-mountain{
+    vertical-align: middle;
+    height: 25%;
+    width: 25%;
+}
+
+#img-village{
+    vertical-align: middle;
+    height: 22%;
+    width: 22%;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 8px;
+}
+
+.amountcmtext{
+    color: snow;
+    font-family: snoww;
+    font-size: 40px;
+    vertical-align: bottom;
+    margin-left: 35px;
+}
+
+#reportday{
+    color: white;
+    margin-left: 5px;
+}
+
+.date{
+    font-family: lemonmilk;
+    font-size: 25px;
+    color: #b7b7b7;
+}
+
+.cmtext{
+    font-family: lemonmilk;
+    font-size: 23px;
+    color: white;
+}
+
+.forecast-item{
+    display: inline-block;
+    text-align: center;
+    padding-right: 20px;
+    /* border: 1px solid red; */
+}
+
+.forecast-content{
+    
+}
+
+.weathericon{
+    /* border: 1px solid red; */
+    height: 80%;
+    width: 80%;
+}
+
+.form-content{
+    margin-top: 60px ;
+    margin-left: 20px;
+    font-family: lemonmilk;
+}
+
+.cursor {
+    color: white;
+}
+
+textarea{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: lemonmilk;
+    font-size: 23px;
+    width: 270px;
+}
+
+.message-title{
+    color: #b7b7b7;
+}
+
+#inputname{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: lemonmilk;
+    font-size: 23px;
+    width: 270px;
+    margin-bottom: 15px;
+    /* border: 1px solid red; */
+}
+
+#Message-title{
+    color: white;
+    font-size: 30px;
+}
+
+.nameimg{
+    width: 10%;
+    height: 10%;
+    vertical-align: bottom;
+}
+
+#addbutton{
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 11px;
+    padding-top: 11px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white ;
+    font-family: snoww;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#addbutton:hover{
+    background: white;
+    color: #30475f;
+}
+
+#addmessageform{
+    /* border: 1px solid red; */
+    width: 280px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#commentsvak{
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+    height: 280px;
+    /* border: 1px solid red; */
+}
+#commentsvak::-webkit-scrollbar { 
+    display: none;
+}
+
+.commentitem{
+    background-color: #b7b7b7;
+    opacity: 1;
+    width: 350px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#comment{
+    padding: 10px;
+}
+
+#bywhen{
+    padding: 10px;
+    font-size: 10px;
+    color: #30475f;
+    padding-bottom: 23px;
+}
+
+#commentname{
+    float: left;
+}
+
+#commenttime{
+    float: right;
+}
+
+#nav a{
+    display: inline-block;
+    bottom: 0px;
+    font-family: lemonmilk;
+    margin-right: 40px;
+}
+
+#nav a:link{
+    text-decoration: none;
+}
+
+#nav a:hover{
+    border-bottom: 2px solid #30475f;
+}
+
+#nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#nav{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 12px;
+    vertical-align: bottom;
+}
+@media only screen and (min-width: 1350px) {
+    .forecast-content{
+        /* border: 1px solid red; */
+        display: table;
+        table-layout: fixed;
+        margin-top: 60px ;
+        margin-left: -10px;
+    }
+    
+}
