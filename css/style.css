@@ -192,6 +192,9 @@ canvas {
     background: #234;
     overflow: hidden;
   }
+  #forecast canvas, #form canvas {
+    visibility: hidden;
+  }
 
 }
 
@@ -200,6 +203,10 @@ canvas {
     #forecast, #forecast body {
       height: 1300px;
       background: #eee;
+    }
+
+    canvas {
+      visibility: hidden;
     }
 
     #index, #index body {
