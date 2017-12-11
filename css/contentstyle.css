@@ -46,8 +46,9 @@ body{
     left: 63%;
     bottom: 225px;
     font-family: lemonmilk;
+    margin-left: 10px;
     /* border: 1px solid red; */
-    width: 250px;
+    width: auto;
     text-align: center;
 }
 
@@ -316,11 +317,11 @@ textarea{
         .countdown{
             position: absolute;
             left: 10%;
-            margin-left: 55px;
+            margin-left: 60px;
             bottom: 240px;
             font-family: lemonmilk;
             /* border: 1px solid red; */
-            width: 240px;
+            width: auto;
             text-align: center;
         }
 

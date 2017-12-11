@@ -13,11 +13,12 @@
 html, body {
   height: 100%;
   background: #eee;
+  overflow-x: hidden ;
 }
 
 .landscape {
   position: relative;
-  height: 93.3%;
+  height: 93.2%;
   background: #234;
   overflow: hidden;
 }
@@ -166,6 +167,7 @@ html, body {
 
 canvas {
   position: absolute;
+  height: 100% ;
   top: 0;
   left: 0;
   z-index: 1;
@@ -186,7 +188,7 @@ canvas {
 
   .landscape {
     position: relative;
-    height: 95%;
+    height: 93.2%;
     background: #234;
     overflow: hidden;
   }

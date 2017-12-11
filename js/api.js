@@ -214,3 +214,36 @@ $.ajax({
         console.log(imgname);
     }
 });
+
+// $('').bind("click", boomaf);
+// function boomaf() {
+
+//     $(this).css({"visibility":"hidden"});
+//     $(this).css({"display":"block"});
+// }
+
+var aanuit = 1
+$(".tree").click(function(){
+    if (aanuit == 1){
+        $("#snow").hide(100);
+        aanuit = 0
+    }
+    else{
+        $("#snow").show(100);
+        aanuit = 1
+    }
+    
+ });
+
+ var aanuit2 = 1
+ $("#major-title-red").click(function(){
+     if (aanuit2 == 1){
+         $("#major-title-red").text("Thanks to Pierre Le Doux")
+         aanuit2 = 0
+     }
+     else{
+         $("#major-title-red").text("La Plagne");
+         aanuit2 = 1
+     }
+     
+  });
