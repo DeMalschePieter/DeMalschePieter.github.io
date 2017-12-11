@@ -231,7 +231,9 @@ textarea{
 #commentsvak{
     display: inline-block;
     vertical-align: top;
+    
     overflow: auto;
+    overflow-x: hidden;
     height: 280px;
     /* border: 1px solid red; */
 }
