@@ -46,7 +46,7 @@ body{
     left: 63%;
     bottom: 225px;
     font-family: lemonmilk;
-    margin-left: 10px;
+    margin-left: 25px;
     /* border: 1px solid red; */
     width: auto;
     text-align: center;
@@ -96,14 +96,14 @@ body{
 
 #img-mountain{
     vertical-align: middle;
-    height: 25%;
-    width: 25%;
+    height: 70px;
+    width: auto;
 }
 
 #img-village{
     vertical-align: middle;
-    height: 22%;
-    width: 22%;
+    height: 85px;
+    width: auto;
     margin-left: 8px;
     margin-right: 8px;
     padding-bottom: 8px;
@@ -317,7 +317,7 @@ textarea{
         .countdown{
             position: absolute;
             left: 10%;
-            margin-left: 60px;
+            margin-left: 70px;
             bottom: 240px;
             font-family: lemonmilk;
             /* border: 1px solid red; */
