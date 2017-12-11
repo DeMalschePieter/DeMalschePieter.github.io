@@ -13,12 +13,11 @@
 html, body {
   height: 100%;
   background: #eee;
-  overflow: hidden;
 }
 
 .landscape {
   position: relative;
-  height: 94%;
+  height: 93.3%;
   background: #234;
   overflow: hidden;
 }
@@ -173,8 +172,74 @@ canvas {
 }
 
 /* Codepen Preview Mode */
-@media only screen and (max-height: 450px) {
-  .landscape {
-    margin-top: -270px;
+@media only screen and (max-width: 1276px) and (min-width: 760px) {
+
+  #forecast, #forecast body {
+    height: 1000px;
+    background: #eee;
   }
+
+  #form, #form body {
+    height: 1050px;
+    background: #eee;
+  }
+
+  .landscape {
+    position: relative;
+    height: 95%;
+    background: #234;
+    overflow: hidden;
+  }
+
 }
+
+@media only screen and (max-width: 760px){
+  
+    #forecast, #forecast body {
+      height: 1300px;
+      background: #eee;
+    }
+
+    #index, #index body {
+      height: 940px;
+      background: #eee;
+    }
+
+    #form, #form body {
+      height: 1380px;
+      background: #eee;
+    }
+
+     .moon {
+      position: absolute;
+      left: 10%;
+      bottom: 100px;
+      width: 350px;
+      height: 350px;
+      margin: 0 0 0 0;
+      border-radius: 50%;
+      background: #ccc;
+    }
+
+    #index .landscape {
+      position: relative;
+      height: 94.5%;
+      background: #234;
+      overflow: hidden;
+    }
+
+    #forecast .landscape {
+      position: relative;
+      height: 96%;
+      background: #234;
+      overflow: hidden;
+    }
+
+    #form .landscape {
+      position: relative;
+      height: 96.5%;
+      background: #234;
+      overflow: hidden;
+    }
+  
+  }
