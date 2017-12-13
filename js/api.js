@@ -238,7 +238,7 @@ $(".tree").click(function(){
  var aanuit2 = 1
  $("#major-title-red").click(function(){
      if (aanuit2 == 1){
-         $("#major-title-red").text("Thanks to Pierre Le Doux")
+        $("#major-title-red").text("Ak geen poeier eb work dweis")
          aanuit2 = 0
      }
      else{
