@@ -2,7 +2,7 @@ var url = "https://api.weatherunlocked.com/api/snowreport/333008?app_id=dd4fa34e
 var forecasturl = "https://api.weatherunlocked.com/api/resortforecast/333008?app_id=dd4fa34e&app_key=f0feccb2ba08aeadc6f362ce09c6302e"
 
 var datum = Date.now();
-var vertrekdatum = new Date("Fri Feb 02 2018 18:00:00 GMT+0100 (W. Europe Standard Time)");
+var vertrekdatum = new Date("Sun Apr 01 2018 18:00:00 GMT+0100 (W. Europe Standard Time)");
 var countdown = vertrekdatum - datum;
 
 var minutes = 1000 * 60;
