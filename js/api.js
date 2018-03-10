@@ -92,8 +92,8 @@ $.ajax({
                         hoogstetemp = parseInt(result.forecast[i].base.temp_c);
                     }
 
-                    snowtoday += parseFloat(result.forecast[i].snow_mm/10.00).toFixed(2);
-                    $("#cmtoday").text(snowtoday + " CM");
+                    snowtoday += result.forecast[i].snow_mm;
+                    $("#cmtoday").text((snowtoday/10).toFixed(2) + " CM");
                     if (result.forecast[i].time == "13:00"){
                         var imgname = (result.forecast[i].mid.wx_icon).split(".", 1);
                         var imgname = imgname +  ".png";
@@ -119,8 +119,8 @@ $.ajax({
                         hoogstetemp = parseInt(result.forecast[i].base.temp_c);
                     }
 
-                    snowadd1day += parseFloat(result.forecast[i].snow_mm/10.00).toFixed(2);
-                    $("#cmadd1").text(snowadd1day + " CM");
+                    snowadd1day += result.forecast[i].snow_mm;
+                    $("#cmadd1").text((snowadd1day/10).toFixed(2) + " CM");
                     if (result.forecast[i].time == "13:00"){
                         var imgname = (result.forecast[i].mid.wx_icon).split(".", 1);
                         var imgname = imgname +  ".png";
@@ -151,8 +151,8 @@ $.ajax({
                         hoogstetemp = parseInt(result.forecast[i].base.temp_c);
                     }
 
-                    snowadd2days += parseFloat(result.forecast[i].snow_mm/10.00).toFixed(2);
-                    $("#cmadd2").text(snowadd2days + " CM");
+                    snowadd2days += result.forecast[i].snow_mm;
+                    $("#cmadd2").text((snowadd2days/10).toFixed(2) + " CM");
                     if (result.forecast[i].time == "13:00"){
                         var imgname = (result.forecast[i].mid.wx_icon).split(".", 1);
                         var imgname = imgname +  ".png";
@@ -184,8 +184,8 @@ $.ajax({
                     }
 
 
-                    snowadd3days += parseFloat(result.forecast[i].snow_mm/10.00).toFixed(2);
-                    $("#cmadd3").text(snowadd3days + " CM");
+                    snowadd3days += parseFloat(result.forecast[i].snow_mm);
+                    $("#cmadd3").text((snowadd3days/10).toFixed(2) + " CM");
                     if (result.forecast[i].time == "13:00"){
                         var imgname = (result.forecast[i].mid.wx_icon).split(".", 1);
                         var imgname = imgname +  ".png";
