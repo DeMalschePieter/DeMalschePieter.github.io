@@ -1,5 +1,5 @@
 var datum = Date.now();
-var vertrekdatum = new Date("Fri Feb 02 2018 18:00:00 GMT+0100 (W. Europe Standard Time)");
+var vertrekdatum = new Date("Sun Apr 01 2018 18:00:00 GMT+0100 (W. Europe Standard Time)");
 var countdown = vertrekdatum - datum;
 
 var minutes = 1000 * 60;
