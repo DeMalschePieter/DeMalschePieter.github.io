@@ -93,7 +93,7 @@ $.ajax({
                     }
 
                     snowtoday += parseFloat(result.forecast[i].snow_mm).toFixed(2);
-                    $("#cmtoday").text(snowtoday/10 + " CM");
+                    $("#cmtoday").text(snowtoday/10.0 + " CM");
                     if (result.forecast[i].time == "13:00"){
                         var imgname = (result.forecast[i].mid.wx_icon).split(".", 1);
                         var imgname = imgname +  ".png";
@@ -120,7 +120,7 @@ $.ajax({
                     }
 
                     snowadd1day += parseFloat(result.forecast[i].snow_mm).toFixed(2);
-                    $("#cmadd1").text(snowadd1day/10 + " CM");
+                    $("#cmadd1").text(snowadd1day/10.0 + " CM");
                     if (result.forecast[i].time == "13:00"){
                         var imgname = (result.forecast[i].mid.wx_icon).split(".", 1);
                         var imgname = imgname +  ".png";
@@ -152,7 +152,7 @@ $.ajax({
                     }
 
                     snowadd2days += parseFloat(result.forecast[i].snow_mm).toFixed(2);
-                    $("#cmadd2").text(snowadd2days/10 + " CM");
+                    $("#cmadd2").text(snowadd2days/10.0 + " CM");
                     if (result.forecast[i].time == "13:00"){
                         var imgname = (result.forecast[i].mid.wx_icon).split(".", 1);
                         var imgname = imgname +  ".png";
@@ -185,7 +185,7 @@ $.ajax({
 
 
                     snowadd3days += parseFloat(result.forecast[i].snow_mm).toFixed(2);
-                    $("#cmadd3").text(snowadd3days/10 + " CM");
+                    $("#cmadd3").text(snowadd3days/10.0 + " CM");
                     if (result.forecast[i].time == "13:00"){
                         var imgname = (result.forecast[i].mid.wx_icon).split(".", 1);
                         var imgname = imgname +  ".png";
